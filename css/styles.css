@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+}
+
+/* стилі заголовків */
+.text-card {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1.2;
+    color: #434455;
+}
+
+.text-card-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.2;
+    color: #434455;
+}
+
+/* забираємо підкреслення з посилань */
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+/* Логотип */
+.logos {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logos-color {
+    color: #4D5AE5;
+}
+
+
+/* кнопки фільтра */
+.list-button-all {
+    cursor: pointer;
+    width: 69px;
+    height: 48px;
+    background: #404BBF;
+    border: none;
+}
+
+.list-button {
+    cursor: pointer;
+    color: #4D5AE5;
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: none;
+}
+.list-button:hover, 
+.list-button-all:hover,
+.link-item:hover,
+.logos:hover,
+.logos-footer:hover
+{
+    color: #E7E9FC;
+}
+
+
+/* прибираємо маркери списку */
+.list-style-type {
+    list-style-type: none;
+}
+
+/* список в рядок */
+ul>li {
+    display: inline;
+}
+.text-card{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1.2m;
+    color: #2E2F42;
+    display: flex
+}
+.text-card-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.2m;
+    color: #2E2F42;
+    display: flex
+}
+
+/* підвал сайту */
+.footer-style {
+    background-color: #2E2F42;
+    color: #ffffff;
+    Width: 1440px;
+    Height: 310px;
+
+}
+.footer-style-text {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.2;
+}
+.logos-footer {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+.logos-color-footer {
+    color: #4D5AE5;
+}
+
