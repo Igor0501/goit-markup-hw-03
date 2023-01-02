@@ -1,6 +1,48 @@
+:root {
+    /*--title-color: #212121;*/
+    --text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --accent-brand: #4D5AE5;
+    --accent-active: #404BBF;
+    --heder-logo: #000000;
+    --site-background-color: #ffffff;
+    --header-background-color: #ffffff;
+    --hero-footer-bckround-color: #2E2F42;
+    --hero-btn-text-color: #ffffff;
+    --team-background-color: #F4F4FD;
+    --filter-btn-background-color: #F4F4FD;
+    --filter-btn-text-color: #ffffff;
+    --footer-logo: #f5f4fa;}
+    
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* стилі заголовків */
@@ -55,6 +97,7 @@ a {
     background: #F4F4FD;
     border: none;
 }
+
 .list-button:hover, 
 .list-button-all:hover,
 .link-item:hover,
@@ -116,3 +159,50 @@ ul>li {
     color: #4D5AE5;
 }
 
+/* hero */
+.hero {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    width: 496px;
+    color: #ffffff;
+}
+
+
+.btn {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    border-radius: 4px;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:#ffffff;
+    background-color: var(--accent-brand);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 16px 32px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background: var(--accent-active);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
