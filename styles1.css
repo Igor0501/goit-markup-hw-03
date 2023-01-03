@@ -122,7 +122,6 @@ body {
 
 .link {
     text-decoration: none;
-
 }
 
 .link:hover,
@@ -314,6 +313,10 @@ body {
     margin-top: 20px;
 
 }
+
+
+
+
 
 /*---------Portfolio---------*/
 .filter {
