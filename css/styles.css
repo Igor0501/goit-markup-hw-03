@@ -175,33 +175,6 @@ body{
     padding-bottom: 32px;
 }
 
-
-/* кнопки фільтра */
-.list-button-all {
-    cursor: pointer;
-    width: 69px;
-    height: 48px;
-    color: #ffffff;
-    background: #404BBF;
-    border: none;
-}
-
-.list-button {
-    cursor: pointer;
-    color: #4D5AE5;
-    width: 116px;
-    height: 48px;
-    background: #F4F4FD;
-    border: none;
-}
-
-.list-button:hover, 
-.link-item:hover,
-.logos:hover,
-.logos-footer:hover{
-    color: #E7E9FC;
-}
-
 /* header */
 .header-container{
     display: flex;
