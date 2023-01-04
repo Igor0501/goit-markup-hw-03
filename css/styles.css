@@ -406,11 +406,10 @@ body{
 .textfade {
     color: white;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    padding: 40px 32px 32px;
     white-space: wrap;
 }
 
