@@ -58,6 +58,8 @@ ul>li {
 
 img{
     display: block;
+    max-width: 100%;
+    hide
 }
 
 body{
@@ -203,7 +205,7 @@ body{
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 1px 6px rgba(46, 47, 66, 0.08);
-    margin-bottom: 96px;
+    /* margin-bottom: 96px; */
 }
 
 .header-list {
@@ -314,7 +316,10 @@ body{
     column-gap: 24px;
     margin-bottom: 72px;
 }
-
+ .portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+ }
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
@@ -325,30 +330,27 @@ body{
 
 .portfolio-list-item{
     display: block;
-    background-color: var(--site-background-color);
+    background-color: #ffffff;
     width: 360px;
-    border: 1px solid #E7E9FC;
-    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-list-item {
-    display: block;
-    background-color: var(--site-background-color);
-    width: 360px;
-    border: 1px solid #E7E9FC;
-    border-radius: 0px 0px 4px 4px;
-}
-.img-select:hover,
+
+/* .img-select:hover,
 .img-select:active{
     background-color: #4D5AE5;
     color: #ffffff;
-}
+} */
 
 .portfolio-item-title {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 18px;
     color: var(--text-color);
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* наведення на фото */
@@ -357,23 +359,26 @@ body{
 }
 .imagefade {
     display: block;
-    width: 360px;
+    width: 100%;
     height: auto;
 }
 .overlayfade {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    bottom: 100%;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 360px;
+    overflow: hidden;
+    height: 0;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #4D5AE5;
 }
 .containerfade:hover .overlayfade {
     opacity: 1;
+    height: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 .textfade {
@@ -382,6 +387,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     position: absolute;
+    overflow: hidden;
     padding: 40px 32px 32px;
     white-space: wrap;
 }
